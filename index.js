@@ -38,5 +38,5 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(port, () => {
-    console.log(`Listening at port ${port}...`)
+    console.log(`Currently listening at port ${port}...`)
 })
